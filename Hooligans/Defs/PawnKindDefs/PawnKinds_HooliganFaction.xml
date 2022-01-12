@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <PawnKindDef Name="MLRP_HooliganKinds" Abstract="True">
+    <race>Human</race>
+    <defaultFactionType>Geo_HooliganFaction</defaultFactionType>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+          <li>Outsider</li>
+          <li>Pirate</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <chemicalAddictionChance>1</chemicalAddictionChance>
+    <invNutrition>2</invNutrition>
+    <invFoodDef>MealFine_Veg</invFoodDef>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <maxGenerationAge>55</maxGenerationAge>
+    <combatEnhancingDrugsChance>1</combatEnhancingDrugsChance>
+    <combatEnhancingDrugsCount>
+      <min>1</min>
+      <max>3</max>
+    </combatEnhancingDrugsCount>
+	<disallowedTraits>
+      <li>Wimp</li>
+	  <li>Pyromaniac</li>
+	  <li>BodyPurist</li>
+	  <li>MLRP_BronyTrait</li>
+    </disallowedTraits>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="MLRP_HooliganKinds" Name="MLRP_HooliganKinds_Default" Abstract="True">
+	<itemQuality>Normal</itemQuality>
+	<skills>
+	  <li>
+        <skill>Melee</skill>
+        <range>10~15</range>
+      </li>
+    </skills>
+  </PawnKindDef>
+  
+<PawnKindDef ParentName="MLRP_HooliganKinds_Default">
+    <defName>Hooligan_Default</defName>
+	<factionLeader>false</factionLeader>
+    <baseRecruitDifficulty>1</baseRecruitDifficulty>
+    <initialWillRange>5~7</initialWillRange>
+    <initialResistanceRange>9~12</initialResistanceRange>
+    <label>hooligan</label>
+	<labelPlural>hooligan</labelPlural>
+    <combatPower>45</combatPower>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelTags>
+	  <li>IndustrialBasic</li>
+    </apparelTags>
+   <apparelRequired>
+      <li>Apparel_SimpleHelmet</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>100</min>
+      <max>500</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>1</min>
+      <max>100</max>
+    </weaponMoney>
+    <weaponTags>
+	  <li>HooliganWeapon</li>
+    </weaponTags>
+	<isFighter>true</isFighter>
+</PawnKindDef>
+
+<PawnKindDef ParentName="MLRP_HooliganKinds_Default">
+    <defName>Hooligan_Leader</defName>
+	<factionLeader>true</factionLeader>
+    <baseRecruitDifficulty>1</baseRecruitDifficulty>
+    <initialWillRange>5~7</initialWillRange>
+    <initialResistanceRange>9~12</initialResistanceRange>
+    <label>hooligan</label>
+	<labelPlural>hooligan</labelPlural>
+    <combatPower>45</combatPower>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelTags>
+	  <li>IndustrialBasic</li>
+    </apparelTags>
+   <apparelRequired>
+      <li>Apparel_SimpleHelmet</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>100</min>
+      <max>500</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>1</min>
+      <max>100</max>
+    </weaponMoney>
+    <weaponTags>
+	  <li>HooliganWeapon</li>
+    </weaponTags>
+	<isFighter>true</isFighter>
+</PawnKindDef>
+
+</Defs>
