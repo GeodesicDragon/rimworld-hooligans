@@ -84,10 +84,19 @@
           <Hooligan_Default>35</Hooligan_Default>
         </options>
       </li>
+      <li>        
+        <kindDef>Combat</kindDef>
+        <commonality>50</commonality>
+        <options>
+          <Hooligan_Default>20</Hooligan_Default>
+		  <Hooligan_Veteran>15</Hooligan_Veteran>
+        </options>
+      </li>
       <li>
         <kindDef>Settlement</kindDef>
         <options>
-          <Hooligan_Default>50</Hooligan_Default>
+          <Hooligan_Default>30</Hooligan_Default>
+          <Hooligan_Veteran>20</Hooligan_Veteran>
 		</options>
       </li>
     </pawnGroupMakers>

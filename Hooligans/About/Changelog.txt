@@ -1,3 +1,9 @@
+Version 1.1.2 (January 20th 2022)
+
+* Added hooligan veterans.
+	* Armed with either a knife, an axe or molotov cocktails, making them slightly more dangerous than their beer and wood wielding friends.
+* Vastly increased recruitment resistance of standard hooligans.
+
 Version 1.0.1 (January 12th 2022)
 
 * Initial release.

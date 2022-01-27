@@ -14,8 +14,6 @@
       </li>
     </backstoryFilters>
     <chemicalAddictionChance>1</chemicalAddictionChance>
-    <invNutrition>2</invNutrition>
-    <invFoodDef>MealFine_Veg</invFoodDef>
     <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
     <maxGenerationAge>55</maxGenerationAge>
     <combatEnhancingDrugsChance>1</combatEnhancingDrugsChance>
@@ -44,9 +42,9 @@
 <PawnKindDef ParentName="MLRP_HooliganKinds_Default">
     <defName>Hooligan_Default</defName>
 	<factionLeader>false</factionLeader>
-    <baseRecruitDifficulty>1</baseRecruitDifficulty>
+    <baseRecruitDifficulty>0.99</baseRecruitDifficulty>
     <initialWillRange>5~7</initialWillRange>
-    <initialResistanceRange>9~12</initialResistanceRange>
+    <initialResistanceRange>27~36</initialResistanceRange>
     <label>hooligan</label>
 	<labelPlural>hooligan</labelPlural>
     <combatPower>45</combatPower>
@@ -65,11 +63,45 @@
       <max>500</max>
     </apparelMoney>
     <weaponMoney>
-      <min>1</min>
+      <min>100</min>
       <max>100</max>
     </weaponMoney>
     <weaponTags>
 	  <li>HooliganWeapon</li>
+    </weaponTags>
+	<isFighter>true</isFighter>
+</PawnKindDef>
+
+<PawnKindDef ParentName="MLRP_HooliganKinds_Default">
+    <defName>Hooligan_Veteran</defName>
+	<factionLeader>false</factionLeader>
+    <baseRecruitDifficulty>0.99</baseRecruitDifficulty>
+    <initialWillRange>10~14</initialWillRange>
+    <initialResistanceRange>54~72</initialResistanceRange>
+    <label>hooligan veteran</label>
+	<labelPlural>hooligan veterans</labelPlural>
+    <combatPower>60</combatPower>
+    <gearHealthRange>
+      <min>1</min>
+      <max>1</max>
+    </gearHealthRange>
+    <apparelTags>
+	  <li>IndustrialBasic</li>
+    </apparelTags>
+   <apparelRequired>
+      <li>Apparel_SimpleHelmet</li>
+    </apparelRequired>
+    <apparelMoney>
+      <min>100</min>
+      <max>500</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>100</min>
+      <max>500</max>
+    </weaponMoney>
+    <weaponTags>
+	  <li>Axe</li>
+	  <li>HooliganVeteranWeapon</li>
     </weaponTags>
 	<isFighter>true</isFighter>
 </PawnKindDef>
@@ -80,9 +112,9 @@
     <baseRecruitDifficulty>1</baseRecruitDifficulty>
     <initialWillRange>5~7</initialWillRange>
     <initialResistanceRange>9~12</initialResistanceRange>
-    <label>hooligan</label>
-	<labelPlural>hooligan</labelPlural>
-    <combatPower>45</combatPower>
+    <label>hooligan leader</label>
+	<labelPlural>hooligan leaders</labelPlural>
+    <combatPower>75</combatPower>
     <gearHealthRange>
       <min>1</min>
       <max>1</max>
@@ -98,11 +130,11 @@
       <max>500</max>
     </apparelMoney>
     <weaponMoney>
-      <min>1</min>
-      <max>100</max>
+      <min>100</min>
+      <max>500</max>
     </weaponMoney>
     <weaponTags>
-	  <li>HooliganWeapon</li>
+	  <li>HooliganVeteranWeapon</li>
     </weaponTags>
 	<isFighter>true</isFighter>
 </PawnKindDef>
