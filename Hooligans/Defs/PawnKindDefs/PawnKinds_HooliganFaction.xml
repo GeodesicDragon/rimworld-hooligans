@@ -10,6 +10,7 @@
           <li>Outlander</li>
           <li>Outsider</li>
           <li>Pirate</li>
+          <li>Tribal</li>
         </categories>
       </li>
     </backstoryFilters>
@@ -23,9 +24,8 @@
     </combatEnhancingDrugsCount>
 	<disallowedTraits>
       <li>Wimp</li>
-	  <li>Pyromaniac</li>
 	  <li>BodyPurist</li>
-	  <li>MLRP_BronyTrait</li>
+	  <li>Kind</li>
     </disallowedTraits>
   </PawnKindDef>
   

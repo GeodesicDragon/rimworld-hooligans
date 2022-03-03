@@ -1,3 +1,12 @@
+Version 1.1.7 (March 3rd 2022)
+
+* The hooligans have finally realised that they're supposed to hate your guts, and should no longer send you offers to attend peace talks.
+* Hooligan pawns can now have tribal backgrounds.
+* Hooligan pawns can now have the 'Pyromaniac' trait.
+* Hooligan pawns can no longer have the 'Kind' trait.
+* Fixed error related to invalid TraitDef if My Little RimPony is not enabled.
+* Tidied up the Patches folder by putting files into their relevant folders.
+
 Version 1.1.2 (January 20th 2022)
 
 * Added hooligan veterans.
