@@ -19,10 +19,11 @@
 	<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
     <fixedName>The Drunken Horde</fixedName>
     <settlementNameMaker>NamerSettlementPirate</settlementNameMaker>
-	<permanentEnemyToEveryoneExcept></permanentEnemyToEveryoneExcept>
+	<permanentEnemy>true</permanentEnemy>
     <allowedCultures>
 		<li>Corunan</li>
 		<li>Rustican</li>
+		<li>Kriminul</li>
 	</allowedCultures>
     <requiredMemes>
 		<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
@@ -44,6 +45,7 @@
           <li>Outlander</li>
           <li>Outsider</li>
           <li>Pirate</li>
+          <li>Tribal</li>
         </categories>
       </li>
     </backstoryFilters>
