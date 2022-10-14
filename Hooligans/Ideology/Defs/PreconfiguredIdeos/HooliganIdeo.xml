@@ -1,0 +1,22 @@
+<Defs>
+
+	<IdeoPresetCategoryDef>
+		<defName>GeoHooligan_PresetIdeos</defName>
+		<label>Hooligan</label>
+		<description>Hooligan themed ideoligions.</description>
+		<groupLabel>Preset ideoligions</groupLabel>
+	</IdeoPresetCategoryDef>
+
+	<IdeoPresetDef>
+		<defName>Geo_HooliganIdeo</defName>
+		<label>Hardmen Of The Rim</label>
+		<description>We like to fight, everyone else is beneath us, and we really like taking drugs; what more needs to be said?</description>
+		<categoryDef>GeoHooligan_PresetIdeos</categoryDef>
+		<memes>
+			<li>Supremacist</li>
+			<li>Raider</li>
+			<li>HighLife</li>
+		</memes>
+	</IdeoPresetDef>
+				
+</Defs>

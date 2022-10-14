@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<ScenarioDef>
+    <defName>Geo_Hooligan_Scenario</defName>
+    <label>Hooligan Expedition</label>
+    <description>The six of you have been sent out by the head honcho with a single purpose in mind: to cause as much trouble as you can.\n\nEveryone else hates your guts and is out for blood, but you don't care; you're the hardest bunch on the rim, and you're more than ready to dish out some harm.</description>
+    <scenario>
+		<summary>A group of hooligans out to cause trouble. Extremely difficult; all factions are hostile, and your starting colonists are addicted to many drugs.</summary>
+		<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>Geo_HooliganFaction_Player</factionDef>
+		</playerFaction>
+		<parts>
+			<!-- Config pages -->
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+				<def>ConfigPage_ConfigureStartingPawns</def>
+				<pawnCount>6</pawnCount>
+				<pawnChoiceCount>6</pawnChoiceCount>
+			</li>
+
+			<!-- Player starting stuff spawn method-->
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+				<method>Standing</method>
+			</li>
+			
+			<!--Starting research-->
+			
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>DrugProduction</project>
+			</li>
+			
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>PsychiteRefining</project>
+			</li>
+			
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>WakeUpProduction</project>
+			</li>
+			
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>GoJuiceProduction</project>
+			</li>
+			
+			<li Class="ScenPart_StartingResearch">
+				<def>StartingResearch</def>
+				<project>PenoxycylineProduction</project>
+			</li>
+			
+			<!--Traits-->
+			
+			<li Class="ScenPart_ForcedTrait">
+				<def>ForcedTrait</def>
+				<chance>1</chance>
+				<context>PlayerStarter</context>
+				<trait>DrugDesire</trait>
+				<degree>2</degree>
+			</li>
+
+			<li Class="ScenPart_ForcedTrait">
+				<def>ForcedTrait</def>
+				<chance>0.5</chance>
+				<context>PlayerStarter</context>
+				<trait>Brawler</trait>
+			</li>			
+			
+			<!-- Player starting things-->
+				
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Silver</thingDef>
+				<count>100</count>
+			</li>
+					
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MeleeWeapon_Knife</thingDef>
+				<count>6</count>
+				<stuff>Plasteel</stuff>
+			</li>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MealSurvivalPack</thingDef>
+				<count>60</count>
+			</li>
+			
+			<!-- Starting drugs -->
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Flake</thingDef>
+				<count>100</count>
+			</li>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>PsychiteTea</thingDef>
+				<count>100</count>
+			</li>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Ambrosia</thingDef>
+				<count>100</count>
+			</li>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Beer</thingDef>
+				<count>100</count>
+			</li>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>GoJuice</thingDef>
+				<count>100</count>
+			</li>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Yayo</thingDef>
+				<count>100</count>
+			</li>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>SmokeleafJoint</thingDef>
+				<count>100</count>
+			</li>
+			
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>WakeUp</thingDef>
+				<count>100</count>
+			</li>
+
+			<!-- Game start dialog -->
+			
+			<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>"You've got your instructions; get out there, cause some damage, and don't f*** this up."\n\n- Hooligan Head Honcho</text>
+			</li>
+		</parts>
+	</scenario>
+</ScenarioDef>
+
+</Defs>

@@ -1,0 +1,17 @@
+<loadFolders>
+	<v1.1>
+		<li>Core</li>
+	</v1.1>
+	<v1.2>
+		<li>Core</li>
+	</v1.2>
+	<v1.3>
+		<li>Core</li>
+		<li IfModActive="Ludeon.RimWorld.Ideology">Ideology</li>
+	</v1.3>
+	<v1.4>
+		<li>Core</li>
+		<li IfModActive="Ludeon.RimWorld.Ideology">Ideology</li>
+		<li>Patches For RimWorld 1.4</li>
+	</v1.4>
+</loadFolders>

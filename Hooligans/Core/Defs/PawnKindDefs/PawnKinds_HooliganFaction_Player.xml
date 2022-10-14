@@ -1,0 +1,47 @@
+<Defs>
+
+  <PawnKindDef Name="MLRP_HooliganKindsPlayer" Abstract="True">
+    <race>Human</race>
+	<fixedGender>Male</fixedGender>
+    <defaultFactionType>Geo_HooliganFaction_Player</defaultFactionType>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Offworld</li>
+          <li>Outlander</li>
+          <li>Outsider</li>
+          <li>Pirate</li>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+	<disallowedTraits>
+      <li>Wimp</li>
+	  <li>Kind</li>
+    </disallowedTraits>
+  </PawnKindDef>
+
+<PawnKindDef ParentName="MLRP_HooliganKindsPlayer">
+    <defName>Hooligan_Player</defName>
+    <label>hooligan</label>
+    <labelPlural>hooligans</labelPlural>
+	<chemicalAddictionChance>1</chemicalAddictionChance>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+    <maxGenerationAge>55</maxGenerationAge>
+	<baseRecruitDifficulty>1</baseRecruitDifficulty>
+    <initialWillRange>90~99</initialWillRange>
+	<initialResistanceRange>10~17</initialResistanceRange>
+	<combatPower>60</combatPower>
+    <apparelRequired>
+      <li>Apparel_Pants</li>
+    </apparelRequired>
+	<itemQuality>Normal</itemQuality>
+	<skills>
+	  <li>
+        <skill>Melee</skill>
+        <range>10~15</range>
+      </li>
+    </skills>
+  </PawnKindDef>
+  
+</Defs>

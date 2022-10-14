@@ -1,0 +1,25 @@
+<Defs>
+
+	<TraderKindDef>
+		<defName>Hooligan_DrugDealer</defName>
+		<label>drug dealer</label>
+		<commonality>0.4</commonality>
+		<orbital>true</orbital>
+		<requestable>true</requestable>
+		<stockGenerators>
+		
+			<li Class="StockGenerator_SingleDef">
+				<thingDef>Silver</thingDef>
+				<countRange>800~3000</countRange>
+			</li>
+
+			<li Class="StockGenerator_Category">
+				<categoryDef>Drugs</categoryDef>
+				<thingDefCountRange>3~30</thingDefCountRange>
+				<totalPriceRange>100~2500</totalPriceRange>
+			</li>
+		
+		</stockGenerators>
+	</TraderKindDef>
+	
+</Defs>

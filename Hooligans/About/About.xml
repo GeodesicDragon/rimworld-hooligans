@@ -9,8 +9,11 @@
 		<li>1.1</li>
 		<li>1.2</li>
 		<li>1.3</li>
+		<li>1.4</li>
 	</supportedVersions>
-	<description>Adds a faction of hooligans to the game who are permanently hostile and always suffering from one or more addictions. They like to fight with beer bottles and wood logs, swarming their enemies with sheer numbers.
+	<description>Adds a faction of hooligans to the game who are permanently hostile and always suffering from one or more addictions. Most of them like to fight with beer bottles and wood logs, though some are armed with axes and molotovs, and others with revolvers. They enjoy swarming their enemies with sheer numbers of fighters who are usually doped up to the eyeballs on anything that can be drank, smoked or snorted.
 	
-Inspired by a conversation on the official RimWorld Discord server (see preview image).</description>
+Also adds a scenario which lets you play as a group of hooligans; pretty much every other faction - except your NPC counterparts - is hostile, and all of your starting pawns are addicted to something.
+	
+Inspired by a conversation on the official RimWorld Discord server.</description>
 </ModMetaData>

@@ -1,0 +1,7 @@
+<Patch>
+
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/FactionDef[defName="Geo_HooliganFaction" or defName="Geo_HooliganFaction_Player"]/geneticVariance</xpath>
+</Operation>
+
+</Patch>

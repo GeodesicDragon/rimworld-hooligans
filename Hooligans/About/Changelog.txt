@@ -1,3 +1,29 @@
+Version 1.5.14 (October 14th 2022)
+
+* Mod is now compatible with the RimWorld 1.4 patch.
+* Added hooligan captains.
+	* Armed with a revolver and equipped with a full set of flak armour.
+	* Not as common as other hooligans.
+* Added a scenario which lets you play as a group of hooligans.
+	* Start with 6 pawns, 100 silver, 6 knives, 60 survival meals, and 100 of each main drug.
+	* Start with drug production research, as well as the research to unlock production of other drugs.
+	* Starting pawns have a 100% chance of having the chemical fascination trait.
+	* Starting pawns will also be addicted to something.
+	* Starting pawns will be wearing nothing but a pair of pants.
+	* Permanently hostile to all other factions except the NPC hooligans (and the brony faction if My Little RimPony is enabled; they're willing to give you a chance, but you can still attack them if you want).
+* Added a trader who is basically a drug dealer.
+* Ideology: Added a preset ideology you can select.
+	* Uses the Supremacist, Raider and High Life memes.
+* NPC faction Hooligans can now have the 'Body purist' trait.
+* NPC faction Hooligans can no longer have traits related to drug desire.
+	* This is mostly so they can't be teetotallers any more.
+	* It also means they can't have chemical fascination/interest either.
+	* I wasn't sure if it was possible to restrict it to just teetotaller.
+* Changed the NPC faction description from 'What are you looking at?' to something more resembling a proper description.
+* Hooligan veterans are now equipped with flak vests.
+* Hooligans can no longer be female.
+* Ideology: The NPC hooligan faction now uses the 'High Life' meme by default.
+
 Version 1.1.7 (March 3rd 2022)
 
 * The hooligans have finally realised that they're supposed to hate your guts, and should no longer send you offers to attend peace talks.

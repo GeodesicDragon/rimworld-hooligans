@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="HooliganFaction_PlayerBase">
+	<settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
+    <colorSpectrum>
+	  <li>(0, 1, 0)</li>
+    </colorSpectrum>
+    <raidLootValueFromPointsCurve>
+      <points>
+        <li>(35,     15)</li>
+        <li>(100,   120)</li>
+        <li>(1000,  500)</li>
+        <li>(2000,  800)</li>
+        <li>(4000, 1000)</li>
+      </points>
+    </raidLootValueFromPointsCurve>
+  </FactionDef>
+  
+  <FactionDef ParentName="HooliganFaction_PlayerBase">
+    <defName>Geo_HooliganFaction_Player</defName>
+	<label>Hooligan Expedition</label>
+    <description>A group of hooligans who have been sent out to cause trouble for everyone else.</description>
+	<allowedCultures>
+		<li>Corunan</li>
+		<li>Rustican</li>
+		<li>Kriminul</li>
+	</allowedCultures>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Hooligan_Player</basicMemberKind>
+    <pawnSingular>hooligan</pawnSingular>
+    <pawnsPlural>hooligans</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <backstoryFilters>
+      <li>
+        <categories>
+          <li>Outlander</li>
+          <li>Outsider</li>
+          <li>Pirate</li>
+          <li>Tribal</li>
+        </categories>
+      </li>
+    </backstoryFilters>
+    <factionIconPath>World/WorldObjects/Expanding/TownRough</factionIconPath>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+	<permanentEnemyToEveryoneExcept>
+		<li>Geo_HooliganFaction</li>
+	</permanentEnemyToEveryoneExcept>
+    <geneticVariance>1</geneticVariance>
+	<startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </apparelStuffFilter>
+  </FactionDef>
+</Defs>

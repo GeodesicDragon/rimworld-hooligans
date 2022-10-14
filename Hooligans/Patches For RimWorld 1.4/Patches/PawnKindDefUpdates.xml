@@ -1,0 +1,7 @@
+<Patch>
+
+<Operation Class="PatchOperationRemove">
+	<xpath>Defs/PawnKindDef[defName="Hooligan_Default" or defName="Hooligan_Veteran" or defName="Hooligan_Captain" or defName="Hooligan_Leader" or defName="Hooligan_Player"]/baseRecruitDifficulty</xpath>
+</Operation>
+
+</Patch>
